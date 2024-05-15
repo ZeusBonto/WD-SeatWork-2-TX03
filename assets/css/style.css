@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Dep */
+body{
+    background-color: rgb(253, 253, 253);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-items: center;
+    position: fixed;
+    width: 90vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(31, 153, 235, 0.349);
+    
+}
+
+header button {
+    padding: .5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    height: 4vh;
+    background-color: rgba(11, 79, 206, 0.336);
+    color: aliceblue;
+    border-bottom: 2px;
+
+    &:hover {
+        background-color: aquamarine;
+        border-bottom: 2px maroon;
+
+    }
+
+    &:active {
+        transition: .1s ease-in-out;
+        background-color: blueviolet;
+        border-bottom: 2px yellow;
+
+    }
+}
+
+section.hero {
+    display: flex;
+    margin: .3rem .5vw 0;
+    height: 94vh;
+    padding-top: 5vh;
+
+    & .right {
+        width: 70vh;
+    }
+
+    & .left {
+        width: 130vh;
+    }
+}
+
+section.hero .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    & h3 {
+        font-size: 2rem
+   }
+
+    & h1 {
+        font-size: 5rem
+   }
+
+    & h2 {
+        font-size: 3.5rem;
+    }
+
+    & p {
+        font-size: 1.5rem;
+    }
+}
