@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h2>Zeus Edcent A. Bonto</h2>
+            <nav>
+                <a href="/pages/page2/index.html"><button>
+                    <p>Skills</p>
+                </button></a>
+                <a href="/pages/page3/index.html"><button>
+                    <p>Education</p>
+                </button></a>
+                <button>
+                    <p>Projects</p>
+                </button>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="left">
+                <h3>Welcome to my World</h3>
+                <h1>Hi, I'm <span>Zeus Bonto</span></h1>
+                <p>I am a student at Far Eastern University Institute of Technology currently enrolled for my Bachelor of Science in Information Technology.
+                </p>
+            </div>
+            <div class="right">
+                <div class="video">
+                    <video id="myVideo" width="100%" height="100%" controls loop autoplay>
+                        <source src="assets/mp4/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <script>
+                window.onload = function() {
+                    var video = document.getElementById("myVideo");
+                    video.volume = 0.2;
+                };
+            </script>
+        </section>
+
+        <footer>
+            <div class="contact">
+                <div class="image"><img src="assets\img\phone.png" alt="Mastery" width="35" height="35"></div>
+                <div class="text"><p>+639695124461</p></div>
+            </div>
+            <div class="email">
+                <div class="image"><img src="assets\img\email.png" alt="Mastery" width="40" height="35"></div>
+                <div class="text"><p>202310014@fit.edu.ph</p></div>
+            </div>
+            <div class="location">
+                <div class="image"><img src="assets\img\location.png" alt="Mastery" width="35" height="35"></div>
+                <div class="text"><p>Sampaloc Manila</p></div>
+            </div>
+        </footer>
+    </body>
+</html>

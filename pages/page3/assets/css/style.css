@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Dev *
+header,
+header * {
+    outline: 1px pink dashed;
+}
+
+.skills * {
+    outline: 1px blue dashed;
+}*/
+
+/* Dep */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-items: center;
+    position: fixed;
+    width: 90vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(25, 25, 26, .91);
+    z-index: 1;
+
+    & h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        line-height: 28px;
+    }
+}
+
+header button {
+    padding: .5rem 2rem;
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    height: auto;
+    border-bottom: 2px transparent;
+
+    &:hover {
+        background-color: rgb(53, 53, 56);
+    }
+
+    &:active {
+        background-color: rgb(44, 40, 41);
+    }
+
+    & p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        line-height: 28px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Title{
+    position: relative;
+    text-align: center;
+    background-color: rgba(58, 52, 52, 0.815);
+}
+
+.bgimage{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.titlebar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.education{
+    display: flex;
+    padding: 0 5vw;
+    padding-top: 8vh;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 10vh;
+
+    & .title{
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 0.5vh;
+    }
+
+    & .body{
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+}
+
+.image-container{
+    display: flex;
+    padding: 5vw 5vw;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+    background-color: rgba(25, 25, 26, .91);
+    z-index: 0;
+    margin-bottom: 9vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1vw 5vw;
+    align-items: center;
+    position: fixed;
+    width: 90vw;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(25, 25, 26, .91);
+    z-index: 1;
+
+    & p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+footer .contact{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.5fr 0.5fr 0.3fr;
+    column-gap: 1px;
+}
+
+footer .email{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.4fr 0.5fr 0.3fr;
+    column-gap: 1px;
+}
+
+footer .location{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.4fr 1fr 0.3fr;
+    column-gap: 1px;
+}
