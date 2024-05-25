@@ -48,7 +48,7 @@
 
 <!-- TODO: To be changed -->
 
-The project shows information about me including my skills, education, and future projects. The purpose of this project is to hone my skills in formating HTML and CSS and gain more experience in programming a website.
+This project shows information about me including my skills, education, and future projects. The purpose of this project is to hone my skills in formating HTML and CSS and gain more experience in programming a website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -94,4 +94,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Banner Design | Skills title image | pngtree.com |
+| Banner Design | Background image | freepik.com |
