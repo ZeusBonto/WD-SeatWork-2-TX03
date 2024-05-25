@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-/* Dev */
+/* Dev *
 header,
 header * {
     outline: 1px pink dashed;
@@ -12,7 +12,7 @@ header * {
 section.hero,
 section.hero * {
     outline: 1px blue dashed;
-}
+}*/
 
 /* Dep */
 header {

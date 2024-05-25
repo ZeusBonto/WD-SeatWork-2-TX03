@@ -47,21 +47,14 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project shows information about me including my skills, education, and future projects. The purpose of this project is to hone my skills in formating HTML and CSS and gain more experience in programming a website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Interactive Buttons
+- Entertaining Homepage
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -101,4 +94,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Banner Design | Skills title image | pngtree.com |

@@ -9,8 +9,8 @@ header * {
     outline: 1px pink dashed;
 }
 
-.skills * {
-    outline: 1px blue dashed;
+.container *{
+    outline: 1px rgb(46, 9, 255) dashed;
 }*/
 
 /* Dep */
@@ -26,10 +26,10 @@ header {
     background-color: rgba(25, 25, 26, .91);
     z-index: 1;
 
-    & h2 {
+    & h3 {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: 300;
+        font-weight: 200;
         line-height: 28px;
     }
 }
@@ -41,7 +41,7 @@ header button {
     font-weight: 700;
     cursor: pointer;
     transition: .2s ease-in-out;
-    height: 6vh;
+    height: auto;
     border-bottom: 2px transparent;
 
     &:hover {
@@ -61,72 +61,75 @@ header button {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.Title{
-    position: relative;
-    text-align: center;
-    background-color: rgba(58, 52, 52, 0.815);
-}
-
-.bgimage{
+    min-height: 100vh;
     width: 100%;
-    height: auto;
-    opacity: 0.5;
-}
-
-.titlebar{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    color: white;
-    font-weight: 300;
-    font-size: 7vw;
-    text-align: center;
-}
-
-.skills {
-    display: flex;
-    padding: 0 5vw;
-    height: 20vh;
-    justify-content: space-evenly;
-    padding-top: 8vh;
-    align-items: center;
-    margin-bottom: 15vh;
-
-    & .right{
-        width: 60vh;
-    }
-    
-    & .left{
-        width: 60vh;
-    }
-}
-
-.left .container p {
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.right .container p {
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(15, 31, 99, 0.7), rgba(4, 9, 30, 0.7)),url(https://i.pinimg.com/564x/8c/c1/ee/8cc1eef4ece80c25ea8aab2a7c8cd02d.jpg);
 }
 
 .container {
-    border: 5px solid #000000;
-    padding: 30px;
-    
-    & span{
-        font-weight: bold;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+@media only screen and (min-width: 576px){
+    .container {
+        width: 540px;
     }
+}
+
+@media only screen and (min-width: 1200px){
+    .container {
+        width: 1140px;
+    }
+}
+
+.hero {
+    margin-top: 20vh;
+    padding: 20px 0;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    height: auto;
+    padding-top: 6vh;
+
+    & .right{
+        width: 70vh;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    
+    & .left{
+        width: 70vh;
+        border: 2px solid rgb(255, 255, 255);
+    }
+}
+
+.left p, .right p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.left, .right ul li{
+    color: white;
+    text-align: center;
 }
 
 footer{
